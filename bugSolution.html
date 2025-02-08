@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug Solution</title></head><body> <div id="myDiv"></div> <script> function myFunction() { document.getElementById("myDiv").innerHTML = "Hello, world!"; } //Ensuring that the script executes after the DOM is fully loaded window.addEventListener('DOMContentLoaded', (event) => { myFunction(); }); </script> </body></html>
